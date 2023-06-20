@@ -17,7 +17,7 @@ function App() {
   function closeModal() {
     setIsOpen(false);
   }
-
+ 
   return (
     <div className="Container">
       <Button Text="Cadastre-se" onClick={openModal}  />
